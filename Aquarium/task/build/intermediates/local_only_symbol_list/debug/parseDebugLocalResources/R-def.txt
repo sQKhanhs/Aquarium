@@ -1,0 +1,23 @@
+R_DEF: Internal format may change without notice
+local
+color colorAccent
+color colorPrimary
+color colorPrimaryDark
+drawable error
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable image1
+drawable placeholder
+id card_view
+id image_view
+id scroll_view
+id tab_layout
+id tv_description
+id tv_name
+id viewpager2
+layout activity_main
+layout layout_item
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme

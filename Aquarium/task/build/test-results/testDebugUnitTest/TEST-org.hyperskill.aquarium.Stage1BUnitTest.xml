@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.aquarium.Stage1BUnitTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2025-04-02T03:14:55" hostname="LIMIT0100845672" time="4.8">
+  <properties/>
+  <testcase name="test00_checkCardView" classname="org.hyperskill.aquarium.Stage1BUnitTest" time="4.094"/>
+  <testcase name="test01_checkNestedScrollView" classname="org.hyperskill.aquarium.Stage1BUnitTest" time="0.137"/>
+  <testcase name="test02_checkImageView" classname="org.hyperskill.aquarium.Stage1BUnitTest" time="0.142"/>
+  <testcase name="test03_checkTvName" classname="org.hyperskill.aquarium.Stage1BUnitTest" time="0.106"/>
+  <testcase name="test04_checkTvDescription" classname="org.hyperskill.aquarium.Stage1BUnitTest" time="0.113"/>
+  <testcase name="test05_checkPageDefaultContent" classname="org.hyperskill.aquarium.Stage1BUnitTest" time="0.116"/>
+  <testcase name="test06_checkPageCustomContent" classname="org.hyperskill.aquarium.Stage1BUnitTest" time="0.091"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

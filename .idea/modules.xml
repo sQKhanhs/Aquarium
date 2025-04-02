@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Aquarium.iml" filepath="$PROJECT_DIR$/.idea/Aquarium.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aquarium/task/Aquarium.Aquarium-task.iml" filepath="$PROJECT_DIR$/.idea/modules/Aquarium/task/Aquarium.Aquarium-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aquarium/task/Aquarium.Aquarium-task.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Aquarium/task/Aquarium.Aquarium-task.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aquarium/task/Aquarium.Aquarium-task.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Aquarium/task/Aquarium.Aquarium-task.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Aquarium/task/Aquarium.Aquarium-task.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/Aquarium/task/Aquarium.Aquarium-task.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/Aquarium.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/Aquarium.util.iml" />
+    </modules>
+  </component>
+</project>

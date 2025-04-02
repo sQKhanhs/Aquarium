@@ -1,0 +1,104 @@
+<div class="step-text">
+<h5 id="description">Description</h5>
+<p>The first iteration was great, but they want to see more residents. They also would like to be able to update the images more quickly than asking you to change them.</p>
+<p>You told them you can make a quick version using links to images, which can be easily changed later, and decided to make some raw pagination with buttons and use a library to load web images like Picasso.</p>
+<h5 id="objectives">Objectives</h5>
+<ol>
+<li>Let's change the input received from tests.
+		<ul>
+<li><code class="java">imageAnimals</code> is now not <code class="java">List&lt;Int&gt;</code>, but <code class="java">List&lt;String&gt;</code>;</li>
+<li>The string is an URL to an image that we will use to load images from the web. Tests will be on Picasso, so the tests will accept it only;</li>
+<li>We will also add more information to our lists to improve the testing part of the pagination you intend to do. For that, we need to update our default values;
+				<ul>
+<li>update <code class="java">imageAnimals</code>:
+						<pre><code class="java">
+listOf(
+    "https://ucarecdn.com/42045846-b968-4a88-81ec-df73bec4fcb7/",
+
+    "https://ucarecdn.com/5aa10eb3-fc49-4304-9057-adf1d29a9b4c/",
+
+    "https://ucarecdn.com/c5fd39b9-7690-4616-b7dc-d3f8da883146/"
+)
+                        </code></pre>
+</li>
+<li>update <code class="java">nameAnimals</code>: <code class="java">listOf("Koi Carp", "Spiny Dogfish", "Kaluga")</code>;</li>
+<li>update <code class="java">descriptionAnimals</code>:
+						<pre><code class="java">
+listOf(
+
+     //Koi Carp
+    "These colorful, ornamental fish are a variety of the Amur carp. " +
+            "They were originally found in Central Europe and Asia, " +
+            "but they’ve spread to many other parts of the world. " +
+            "Koi carp are popular with breeders, and there are currently over 100 varieties " +
+            "created through breeding.\n" +
+            "\n" +
+            "The average age of a koi carp can vary based on the part of the world it’s bred in. " +
+            "Carps bred outside of Japan have an average lifespan of around 15 years," +
+            " while carps bred in Japan can live 40 years or more. The oldest koi carp on record," +
+            " which was a fish named Hanako, reportedly lived for 226 years!",
+
+    // Spiny dogfish
+    "The spiny dogfish is a type of shark with venomous spines in front of its dorsal fins." +
+            " Not only is it an aggressive hunter, but these fish are known to hunt in packs!" +
+            " Like many shark species, these fish grow slowly, " +
+            "and some females don’t reach full maturity until they’re over 30 years old.\n" +
+            "\n" +
+            "While the lifespan of the spiny dogfish is already impressive, " +
+            "some fish live for far longer than average. " +
+            "Spiny dogfish in the Pacific Ocean tend to live longer than fish in the Atlantic," +
+            " with some fish living longer than 80 years. " +
+            "Females tend to mature later than males, and they usually live longer too.",
+
+    //Kaluga
+    "Sometimes called the river beluga, the kaluga is a type of predatory sturgeon." +
+            " While these fish spend the majority of their time in freshwater, " +
+            "they’re also able to survive in salt water. " +
+            "The kaluga is one of the world’s largest freshwater fish species and can grow to be more than 18 feet long, " +
+            "with a weight of over 2,200 pounds.\n" +
+            "\n" +
+            "Kalugas are overfished, which has left the species vulnerable to extinction. " +
+            "Although many kaluga are killed before they fully mature, " +
+            "these fish have the potential to live very long lives. " +
+            "One kaluga that was caught in China is estimated to be over 100 years old."
+    )</code>
+                </pre>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Let's make a raw pagination scheme with buttons:
+		<ul>
+<li>Keep some state about the current page
+				<ul>
+<li>The initial page should be zero;</li>
+<li>The current page state will be used as an index for the input data.</li>
+</ul>
+</li>
+<li>Add two buttons for switching pages
+				<ul>
+<li>Add a button with the <code class="java">btn_next</code> id. When <code class="java"> btn_next</code> is clicked, increase the current page value by one and update the views to display data related to the animal found while using the current page as the index;</li>
+<li>Add a button with the <code class="java">btn_previous</code> id. When <code class="java"> btn_previous</code> is clicked, decrease the current page value by one and update views to display data related to the animal found while using the current page as the index.</li>
+</ul>
+</li>
+<li>Implement a wrap-around feature on the pagination.
+				<ul>
+<li>If the current page state change is out of the bounds of the input data, then constrain the current page with a wrap-around strategy. If the current page gets one below zero, go to the last valid index on the data and vice-versa in the opposite case.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Use Picasso to load the images
+		<ul>
+<li>Use imageAnimals data as the URL for photos. The provided default values are real links, which will make it possible to retrieve the image from the web on your manual testing;</li>
+<li>The target image view should be the view with the <code class="java">image_view</code> id;</li>
+<li>Set a placeholder image using the drawable with the <code class="java">placeholder.xml</code> id;</li>
+<li>Set an error image using the drawable with the <code class="java">error.xml</code> id.</li>
+</ul>
+</li>
+</ol>
+<h5 id="example">Example</h5>
+<p><strong>Example 1: </strong><em>Raw pagination with buttons</em></p>
+<p><picture><img alt="Raw pagination with buttons" height="640" src="https://ucarecdn.com/b01be0c1-3fba-4f4f-b6f4-629c878f045e/" width="300"/></picture></p>
+</div>

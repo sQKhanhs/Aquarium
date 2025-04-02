@@ -1,0 +1,81 @@
+type: edu
+files:
+  - name: src/main/java/org/hyperskill/aquarium/MainActivity.kt
+    visible: true
+    learner_created: false
+  - name: src/main/res/drawable/error.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/drawable/ic_launcher_background.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/drawable/image1.png
+    visible: true
+    is_binary: true
+    learner_created: false
+  - name: src/main/res/drawable/placeholder.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/drawable-v24/ic_launcher_foreground.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/layout/activity_main.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/values/colors.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/values/strings.xml
+    visible: true
+    learner_created: false
+  - name: src/main/res/values/styles.xml
+    visible: true
+    learner_created: false
+  - name: src/main/AndroidManifest.xml
+    visible: true
+    learner_created: false
+  - name: build.gradle
+    visible: true
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/internals/data/AquariumFakeData.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/internals/screen/MainScreenWithButtons.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/internals/screen/PageScreen.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/internals/shadow/CustomShadowAsyncDifferConfig.java
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/internals/shadow/CustomShadowPicasso.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/internals/shadow/CustomShadowRequestCreator.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/internals/AbstractUnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/internals/AquariumTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/Stage1BUnitTest.kt
+    visible: false
+    learner_created: false
+  - name: src/test/java/org/hyperskill/aquarium/Stage2UnitTest.kt
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/33389#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Mon, 31 Mar 2025 08:17:16 UTC"
+record: 2

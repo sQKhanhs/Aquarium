@@ -1,0 +1,151 @@
+hyperskill_project:
+  id: 376
+  ide_files: https://hyperskill.org/api/projects/376/additional-files/additional_files.json
+  is_template_based: false
+  use_ide: true
+  environment: android
+update_date: "Wed, 02 Apr 2025 02:57:28 UTC"
+stages:
+  - id: 2242
+    step: 33388
+    is_completed: true
+  - id: 2243
+    step: 33389
+    is_completed: true
+  - id: 2244
+    step: 33390
+    is_completed: true
+  - id: 2245
+    step: 33391
+    is_completed: true
+topics:
+  0:
+    - title: Introduction to UI/UX
+      theory_id: 14603
+    - title: Layout grids
+      theory_id: 14922
+    - title: Interface elements
+      theory_id: 15253
+    - title: Input fields and field labels
+      theory_id: 15447
+    - title: Fonts
+      theory_id: 15045
+    - title: Feedback
+      theory_id: 15308
+    - title: "Write, compile, and run"
+      theory_id: 3739
+    - title: "Basic terms: JVM, JRE, JDK"
+      theory_id: 3499
+    - title: Operating systems
+      theory_id: 9704
+    - title: Command line overview
+      theory_id: 8977
+    - title: Parameters and options
+      theory_id: 9746
+    - title: Introduction to Kotlin
+      theory_id: 4350
+    - title: "Basic literals: numbers, strings and characters"
+      theory_id: 4351
+    - title: Writing first program
+      theory_id: 4362
+    - title: Values and variables
+      theory_id: 4371
+    - title: Constants and val variables
+      theory_id: 17408
+    - title: Data types
+      theory_id: 4388
+    - title: Standard output
+      theory_id: 4425
+    - title: Invoking functions
+      theory_id: 4575
+    - title: Standard input with Java Scanner
+      theory_id: 4445
+    - title: String basics
+      theory_id: 12553
+    - title: String templates
+      theory_id: 4547
+    - title: Boolean type and operations. True and false
+      theory_id: 4515
+    - title: Arithmetic operations
+      theory_id: 4472
+    - title: Increment and decrement
+      theory_id: 10776
+    - title: Build tools
+      theory_id: 4284
+    - title: "Gradle: overview"
+      theory_id: 5075
+    - title: Properties of basic types
+      theory_id: 4455
+    - title: Type conversion
+      theory_id: 4672
+    - title: Reading data with readln
+      theory_id: 11224
+    - title: "When different types meet: type coercion"
+      theory_id: 9506
+    - title: Integers in action
+      theory_id: 4488
+    - title: Comparing numbers. Relational operators
+      theory_id: 4525
+    - title: Objects and their properties
+      theory_id: 11233
+    - title: Structural vs referential equality
+      theory_id: 11236
+    - title: Unicode
+      theory_id: 7899
+    - title: Characters. Char type
+      theory_id: 4680
+    - title: Working with strings
+      theory_id: 12561
+    - title: Introduction to collections
+      theory_id: 10390
+    - title: List
+      theory_id: 10730
+    - title: External resources
+      theory_id: 6216
+    - title: Android studio basics
+      theory_id: 11048
+    - title: API Levels
+      theory_id: 11312
+    - title: Introduction to Android
+      theory_id: 6331
+    - title: XML
+      theory_id: 6901
+    - title: Android Project Structure
+      theory_id: 10752
+    - title: AndroidManifest File
+      theory_id: 10762
+    - title: Resources
+      theory_id: 11087
+    - title: Values
+      theory_id: 11370
+    - title: XML Layouts
+      theory_id: 10997
+    - title: Retrieving Declared Views
+      theory_id: 20346
+    - title: View Binding
+      theory_id: 12927
+    - title: "Text, images, and buttons"
+      theory_id: 12918
+    - title: Toast
+      theory_id: 11973
+    - title: Event listeners
+      theory_id: 12822
+    - title: Intent
+      theory_id: 11965
+  1:
+    - title: Loading images with Picasso
+      theory_id: 16044
+  2:
+    - title: Information architecture
+      theory_id: 15316
+    - title: RecyclerView
+      theory_id: 18600
+    - title: ViewPager2
+      theory_id: 14783
+    - title: "Linear, Frame, Relative layouts"
+      theory_id: 11981
+  3:
+    - title: Colors
+      theory_id: 14914
+    - title: Design tips and rules
+      theory_id: 15205

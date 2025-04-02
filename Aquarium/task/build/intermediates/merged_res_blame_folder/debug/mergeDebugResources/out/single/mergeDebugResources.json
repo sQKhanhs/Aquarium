@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/drawable_error.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/drawable/error.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/drawable_image1.png.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/drawable/image1.png"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/drawable_placeholder.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/drawable/placeholder.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-pngs-28:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/layout_layout_item.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/layout/layout_item.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-debug-32:/layout_activity_main.xml.flat",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/layout/activity_main.xml"
+    }
+]

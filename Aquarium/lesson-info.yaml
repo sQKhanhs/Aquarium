@@ -1,0 +1,7 @@
+type: framework
+content:
+  - Basic UI
+  - Picasso
+  - ViewPager2
+  - Tab layout
+current_task: 3

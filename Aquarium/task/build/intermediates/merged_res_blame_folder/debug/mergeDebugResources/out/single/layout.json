@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-mergeDebugResources-31:/layout/layout_item.xml",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/layout/layout_item.xml"
+    },
+    {
+        "merged": "org.hyperskill.aquarium.Aquarium-task-mergeDebugResources-31:/layout/activity_main.xml",
+        "source": "org.hyperskill.aquarium.Aquarium-task-main-34:/layout/activity_main.xml"
+    }
+]

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.hyperskill.aquarium.Stage4UnitTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2025-04-02T03:15:00" hostname="LIMIT0100845672" time="0.665">
+  <properties/>
+  <testcase name="test00_checkTheTabLayout" classname="org.hyperskill.aquarium.Stage4UnitTest" time="0.101"/>
+  <testcase name="test01_checkingTabCount" classname="org.hyperskill.aquarium.Stage4UnitTest" time="0.085"/>
+  <testcase name="test02_checkingIfViewPagerPagePositionMatchesTabLayoutTabPosition" classname="org.hyperskill.aquarium.Stage4UnitTest" time="0.281"/>
+  <testcase name="test03_checkingTabClick" classname="org.hyperskill.aquarium.Stage4UnitTest" time="0.198"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
